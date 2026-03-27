@@ -1,6 +1,6 @@
 describe('template spec', () => {
   //logar com sucesso
-  it('logar com sucesso', () => {
+  it.only('logar com sucesso', () => {
     // cy.viewport(1440, 900)
     cy.visit('http://localhost:3000/')
 
